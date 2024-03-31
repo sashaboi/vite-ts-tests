@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
       codecovVitePlugin({
         enableBundleAnalysis: codeCovToken !== undefined,
         bundleName: "vite-ts-tests",
-        uploadToken: process.env.VITE_CODECOV_TOKEN,
+        uploadToken: codeCovToken,
       }),
     ],
   };
