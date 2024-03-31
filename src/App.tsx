@@ -1,12 +1,8 @@
 import "./App.css";
+import CatFacts from "./CatFacts";
 
 function App() {
-  return (
-    <div>
-      <h1>Onkar tests vite</h1>
-      Token : {import.meta.env.VITE_APP_CODECOV_TOKEN}
-    </div>
-  );
+  return <CatFacts />;
 }
 
 export default App;
